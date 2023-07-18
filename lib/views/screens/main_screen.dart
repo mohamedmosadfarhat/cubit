@@ -13,10 +13,7 @@ class MainScreen extends StatefulWidget {
 
 class _MainScreenState extends State<MainScreen> {
   @override
-  // void initState() {
-  //   super.initState();
-  //   getTodos();
-  // }
+ 
 
   @override
   Widget build(BuildContext context) {
@@ -37,7 +34,8 @@ class _MainScreenState extends State<MainScreen> {
                       cubit.todos[index].completed.toString()),),
               );
             },
-            itemCount: cubit.todos.length,
+                  itemCount: cubit.todos.length,
+            //farhar
           );
         },
       ),
